@@ -3,5 +3,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('fotbal/', include('fotbal.urls')),
+    path('', include('fotbal.urls')),  # Přidání úvodní stránky
 ]
