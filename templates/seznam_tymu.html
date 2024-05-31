@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Seznam Týmů</title>
+</head>
+<body>
+    <h1>Seznam Týmů</h1>
+    <ul>
+        {% for tym in tymy %}
+        <li>{{ tym.nazev }} - {{ tym.mesto }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
